@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Drive Backup Connector</title>
+<meta name="description" content="A private-use utility for encrypted backups in an authorized Google Drive account.">
+<style>body{font:17px/1.65 system-ui,sans-serif;max-width:44rem;margin:4rem auto;padding:0 1.25rem;color:#17202a;background:#fff}h1,h2{line-height:1.2}h1{font-size:2rem}h2{font-size:1.25rem;margin-top:2rem}a{color:#1455a0}nav,footer{font-size:.95rem}footer{border-top:1px solid #ddd;margin-top:2.5rem;padding-top:1rem}</style>
+</head>
+<body>
+<header><h1>Drive Backup Connector</h1><nav aria-label="Main"><a href="./">Home</a> · <a href="privacy.html">Privacy policy</a></nav></header>
+<main>
+<p>A private-use utility for storing encrypted backups in a Google Drive account authorized by its owner. This is not a public backup service.</p>
+<h2>What it does</h2>
+<p>The connector uploads, lists, downloads and verifies encrypted backup files. It also deletes obsolete backup files according to the retention policy configured by the backup operator.</p>
+<h2>Google Drive access</h2>
+<p>Google authorization is used to manage backup files and read storage usage in the authorized Drive account. The connector does not request Gmail, Calendar or Contacts access.</p>
+<p>Backup contents are encrypted before upload. This website does not provide account sign-in, accept backup uploads or store Google credentials.</p>
+<h2>Control and support</h2>
+<p>The account owner controls access and retention. Access can be revoked in <a href="https://myaccount.google.com/permissions">Google Account connections</a>. Revoking access stops future access by the connector; it does not delete backups already stored in Drive.</p>
+<p>For help with an individual backup, contact the person who configured it. Documentation questions can be raised in the <a href="https://github.com/tempo-co/drive-backup-connector/issues">project issue tracker</a>. Do not include private data or credentials.</p>
+</main>
+<footer><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/tempo-co/drive-backup-connector">Documentation source</a></footer>
+</body>
+</html>
